@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { ChevronDown } from "lucide-react";
 import IphoneLight from "&/images/iPhone15.png";
 import IphoneDark from "&/images/iPhone15dark.png";
-import {ScrollDown} from "@/assets";
+import { ScrollDown } from "@/assets";
 
 const Banner = () => {
     return (
@@ -54,9 +54,7 @@ const Banner = () => {
                         <br />
                         ساده، خاص، حرفه‌ای...
                     </h1>
-                    <p className="mt-4 text-sm sm:text-base">
-                        زیبا برای مشتری، ساده برای مدیریت
-                    </p>
+                    <p className="mt-4 text-sm sm:text-base">زیبا برای مشتری، ساده برای مدیریت</p>
                     <motion.button
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}

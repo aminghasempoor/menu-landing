@@ -1,5 +1,5 @@
 import Image, { StaticImageData } from "next/image";
-import {easeOut, motion} from "framer-motion";
+import { easeOut, motion } from "framer-motion";
 
 type FeatureBlockProps = {
     index: number;
@@ -46,10 +46,7 @@ const FeatureBlock = ({ index, title, description, image }: FeatureBlockProps) =
             viewport={{ once: true, amount: 0.3 }}
             variants={containerVariants}
         >
-            <motion.div
-                className="flex-1 text-center lg:text-right"
-                variants={textVariants}
-            >
+            <motion.div className="flex-1 text-center lg:text-right" variants={textVariants}>
                 <h3 className="text-xl font-bold text-storm-dark">{title}</h3>
                 <p className="mt-2 text-muted-foreground text-justify leading-relaxed text-sm sm:text-base">
                     {description}

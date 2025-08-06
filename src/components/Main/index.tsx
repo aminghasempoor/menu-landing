@@ -1,5 +1,5 @@
 import FeatureBlock from "@/components/Main/FeatureBlock";
-import {features} from "@/components/Main/FeatureBlockItems";
+import { features } from "@/components/Main/FeatureBlockItems";
 
 const Main = () => {
     return (
@@ -10,6 +10,6 @@ const Main = () => {
                 ))}
             </section>
         </>
-    )
-}
-export default Main
+    );
+};
+export default Main;

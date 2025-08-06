@@ -1,6 +1,6 @@
-import FeatureOne from "&/images/descriptionImg.png"
-import FeatureTwo from "&/images/descriptionImg1.png"
-import FeatureThree from "&/images/descriptionImg 2.png"
+import FeatureOne from "&/images/descriptionImg.png";
+import FeatureTwo from "&/images/descriptionImg1.png";
+import FeatureThree from "&/images/descriptionImg 2.png";
 export const features = [
     {
         title: "منوی دیجیتال، بدون دردسر",

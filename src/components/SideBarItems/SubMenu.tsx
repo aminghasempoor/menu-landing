@@ -1,6 +1,6 @@
 import { AnimatePresence, motion } from "framer-motion";
 import { ReactNode, useState } from "react";
-import {ChevronDown} from "lucide-react";
+import { ChevronDown } from "lucide-react";
 
 interface SubMenuProps {
     label: string;

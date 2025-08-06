@@ -9,6 +9,6 @@ const Mobile = () => {
             <Banner />
             <Main />
         </>
-    )
-}
+    );
+};
 export default Mobile;

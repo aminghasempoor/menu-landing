@@ -9,6 +9,6 @@ const Desktop = () => {
             <Banner />
             <Main />
         </>
-    )
-}
+    );
+};
 export default Desktop;

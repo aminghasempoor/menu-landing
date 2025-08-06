@@ -2,7 +2,7 @@ import SubMenu from "./SubMenu";
 import MenuItem from "./MenuItem";
 import Separator from "@/components/ui/Separator";
 import { motion, AnimatePresence } from "framer-motion";
-import {useTranslations} from "next-intl";
+import { useTranslations } from "next-intl";
 
 type Menu = {
     title: string;
@@ -16,7 +16,7 @@ interface MenuRendererProps {
 }
 
 export function SideBarComponent({ items, level = 0 }: MenuRendererProps) {
-    const t = useTranslations("SideBar")
+    const t = useTranslations("SideBar");
 
     return (
         <div className="flex flex-col gap-1 mt-2 z-50">

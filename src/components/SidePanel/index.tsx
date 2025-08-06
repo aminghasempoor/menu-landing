@@ -1,8 +1,8 @@
 "use client";
 import { motion, AnimatePresence } from "framer-motion";
 import useSidePanelStore from "@/stores/sidePanelStore";
-import {SideBarComponent} from "@/components/SideBarItems";
-import {menuItems} from "@/components/SideBarItems/SideBarContent";
+import { SideBarComponent } from "@/components/SideBarItems";
+import { menuItems } from "@/components/SideBarItems/SideBarContent";
 
 const SidePanel = () => {
     const isOpen = useSidePanelStore((state) => state.isOpen);
