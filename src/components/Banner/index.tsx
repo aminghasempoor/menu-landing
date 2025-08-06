@@ -5,7 +5,6 @@ import { motion } from "framer-motion";
 import { ChevronDown } from "lucide-react";
 import IphoneLight from "&/images/iPhone15.png";
 import IphoneDark from "&/images/iPhone15dark.png";
-import { ScrollDown } from "@/assets";
 
 const Banner = () => {
     return (

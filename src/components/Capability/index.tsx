@@ -1,10 +1,9 @@
 "use client";
 import { motion } from "framer-motion";
 import { StarColor } from "@/assets";
-import {LayoutGridDemo} from "@/components/Capability/ImagesItemContent";
+import { LayoutGridDemo } from "@/components/Capability/ImagesItemContent";
 
 const CapabilitiesShowcase = () => {
-
     return (
         <section className="py-16 px-4 relative">
             <div className="max-w-7xl mx-auto relative">
@@ -17,12 +16,8 @@ const CapabilitiesShowcase = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8 }}
                 >
-                    <h2 className="text-2xl md:text-4xl font-bold mb-4 text-gray-800">
-                        قابلیت‌های فود هات و کافه نان
-                    </h2>
-                    <p className="text-sm md:text-lg max-w-2xl mx-auto text-gray-600">
-                        تجربه‌ای بی‌نظیر و پیشرفته
-                    </p>
+                    <h2 className="text-2xl md:text-4xl font-bold mb-4 text-gray-800">قابلیت‌های فود هات و کافه نان</h2>
+                    <p className="text-sm md:text-lg max-w-2xl mx-auto text-gray-600">تجربه‌ای بی‌نظیر و پیشرفته</p>
                 </motion.div>
                 <LayoutGridDemo />
             </div>

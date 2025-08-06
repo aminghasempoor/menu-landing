@@ -1,11 +1,9 @@
 "use client";
-import React  from "react";
-import BentoBox1 from "&/images/bentobox-01.png"
-import BentoBox2 from "&/images/bentobox-02.png"
-import BentoBox3 from "&/images/bentobox-03.png"
-import BentoBox4 from "&/images/bentobox-04.png"
-import BentoBox5 from "&/images/bentobox-05.png"
-import BentoBox6 from "&/images/bentobox-06.png"
+import React from "react";
+import BentoBox1 from "&/images/bentobox-01.png";
+import BentoBox2 from "&/images/bentobox-02.png";
+import BentoBox3 from "&/images/bentobox-03.png";
+import BentoBox4 from "&/images/bentobox-04.png";
 import { LayoutGrid } from "../ui/layout-grid";
 
 export function LayoutGridDemo() {
@@ -19,13 +17,11 @@ export function LayoutGridDemo() {
 const SkeletonOne = () => {
     return (
         <div>
-            <p className="font-bold md:text-4xl text-xl text-white">
-                House in the woods
-            </p>
+            <p className="font-bold md:text-4xl text-xl text-white">House in the woods</p>
             <p className="font-normal text-base text-white"></p>
             <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-                A serene and tranquil retreat, this house in the woods offers a peaceful
-                escape from the hustle and bustle of city life.
+                A serene and tranquil retreat, this house in the woods offers a peaceful escape from the hustle and
+                bustle of city life.
             </p>
         </div>
     );
@@ -34,14 +30,11 @@ const SkeletonOne = () => {
 const SkeletonTwo = () => {
     return (
         <div>
-            <p className="font-bold md:text-4xl text-xl text-white">
-                House above the clouds
-            </p>
+            <p className="font-bold md:text-4xl text-xl text-white">House above the clouds</p>
             <p className="font-normal text-base text-white"></p>
             <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-                Perched high above the world, this house offers breathtaking views and a
-                unique living experience. It&apos;s a place where the sky meets home,
-                and tranquility is a way of life.
+                Perched high above the world, this house offers breathtaking views and a unique living experience.
+                It&apos;s a place where the sky meets home, and tranquility is a way of life.
             </p>
         </div>
     );
@@ -49,13 +42,11 @@ const SkeletonTwo = () => {
 const SkeletonThree = () => {
     return (
         <div>
-            <p className="font-bold md:text-4xl text-xl text-white">
-                Greens all over
-            </p>
+            <p className="font-bold md:text-4xl text-xl text-white">Greens all over</p>
             <p className="font-normal text-base text-white"></p>
             <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-                A house surrounded by greenery and nature&apos;s beauty. It&apos;s the
-                perfect place to relax, unwind, and enjoy life.
+                A house surrounded by greenery and nature&apos;s beauty. It&apos;s the perfect place to relax, unwind,
+                and enjoy life.
             </p>
         </div>
     );
@@ -63,13 +54,11 @@ const SkeletonThree = () => {
 const SkeletonFour = () => {
     return (
         <div>
-            <p className="font-bold md:text-4xl text-xl text-white">
-                Rivers are serene
-            </p>
+            <p className="font-bold md:text-4xl text-xl text-white">Rivers are serene</p>
             <p className="font-normal text-base text-white"></p>
             <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-                A house by the river is a place of peace and tranquility. It&apos;s the
-                perfect place to relax, unwind, and enjoy life.
+                A house by the river is a place of peace and tranquility. It&apos;s the perfect place to relax, unwind,
+                and enjoy life.
             </p>
         </div>
     );
@@ -80,20 +69,24 @@ const cards = [
         id: 1,
         content: <SkeletonOne />,
         className: "md:col-span-3",
-        thumbnail:BentoBox1},
+        thumbnail: BentoBox1,
+    },
     {
         id: 2,
         content: <SkeletonTwo />,
         className: "col-span-1",
-        thumbnail:BentoBox2},
+        thumbnail: BentoBox2,
+    },
     {
         id: 3,
         content: <SkeletonThree />,
         className: "col-span-1",
-        thumbnail:BentoBox3},
+        thumbnail: BentoBox3,
+    },
     {
         id: 4,
         content: <SkeletonFour />,
         className: "md:col-span-1",
-        thumbnail:BentoBox4},
+        thumbnail: BentoBox4,
+    },
 ];
