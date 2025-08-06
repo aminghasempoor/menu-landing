@@ -1,11 +1,13 @@
-import {useTranslations} from "next-intl";
+import NavBar from "@/components/NavBar";
+import Banner from "@/components/Banner";
+import Main from "@/components/Main";
 
 const Mobile = () => {
-    const t = useTranslations("HomePage");
     return (
         <>
-            {t("title")}
-            Mobile
+            <NavBar />
+            <Banner />
+            <Main />
         </>
     )
 }

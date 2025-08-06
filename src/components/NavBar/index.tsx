@@ -10,7 +10,7 @@ const NavBar = () => {
 
     return (
         <>
-            <nav className="flex items-center justify-between p-4 mx-10 bg-card relative">
+            <nav className="flex items-center justify-between p-4 md:mx-10 relative">
                 <h3 className="scroll-m-20 capitalize text-xl tracking-tight lg:text-4xl align-baseline">
                     {t("title")}
                     <small className={"text-orange-200"}>.</small>
