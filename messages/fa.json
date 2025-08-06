@@ -2,5 +2,11 @@
   "HomePage": {
     "title": "سلام",
     "about": "خوبی"
+  },
+  "NavBar": {
+    "title": "منولیتا"
+  },
+  "SideBar": {
+    "title": "منولیتا"
   }
 }

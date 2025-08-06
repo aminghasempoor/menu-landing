@@ -1,11 +1,9 @@
-import {useTranslations} from "next-intl";
+import NavBar from "@/components/NavBar";
 
 const Desktop = () => {
-    const t = useTranslations("HomePage");
     return (
         <>
-            {t("title")}
-            Desktop
+            <NavBar />
         </>
     )
 }
