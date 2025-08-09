@@ -1,6 +1,6 @@
 "use client";
 
-import {easeOut, motion} from "framer-motion";
+import { easeOut, motion } from "framer-motion";
 import { StarColor } from "@/assets";
 import { LayoutGridDemo } from "@/components/Capability/ImagesItemContent";
 import { useTranslations } from "next-intl";
@@ -14,7 +14,6 @@ const gridContainerVariants = {
     hidden: {},
     visible: { transition: { staggerChildren: 0.15 } },
 };
-
 
 const CapabilitiesShowcase = () => {
     const t = useTranslations("Capabilities");
@@ -33,12 +32,8 @@ const CapabilitiesShowcase = () => {
                     whileInView="visible"
                     viewport={{ once: true }}
                 >
-                    <h2 className="text-2xl md:text-4xl font-bold mb-4 text-foreground">
-                        {t("title")}
-                    </h2>
-                    <p className="text-sm md:text-lg max-w-2xl mx-auto text-foreground">
-                        {t("description")}
-                    </p>
+                    <h2 className="text-2xl md:text-4xl font-bold mb-4 text-foreground">{t("title")}</h2>
+                    <p className="text-sm md:text-lg max-w-2xl mx-auto text-foreground">{t("description")}</p>
                 </motion.div>
 
                 <motion.div

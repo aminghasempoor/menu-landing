@@ -3,7 +3,7 @@
 import { Chat, Pencill, Security } from "@/assets";
 import CollaborationCard from "./CollaborationCard";
 import { useTranslations } from "next-intl";
-import {easeOut, motion} from "framer-motion";
+import { easeOut, motion } from "framer-motion";
 
 const sectionVariants = {
     hidden: { opacity: 0, y: 50 },
@@ -63,8 +63,7 @@ const Collaboration = () => {
         >
             <div className="max-w-5xl mx-auto px-4">
                 <h2 className="text-2xl font-bold text-center mb-8">
-                    {t("description")}{" "}
-                    <span className="text-orange-200">{t("title")}</span>
+                    {t("description")} <span className="text-orange-200">{t("title")}</span>
                 </h2>
 
                 <motion.div
@@ -76,11 +75,7 @@ const Collaboration = () => {
                 >
                     {steps.map((step, index) => (
                         <motion.div key={index} variants={cardVariants}>
-                            <CollaborationCard
-                                title={step.title}
-                                description={step.description}
-                                Icon={step.icon}
-                            />
+                            <CollaborationCard title={step.title} description={step.description} Icon={step.icon} />
                         </motion.div>
                     ))}
                 </motion.div>

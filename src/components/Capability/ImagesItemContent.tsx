@@ -5,7 +5,7 @@ import BentoBox2 from "&/images/example.jpg";
 import BentoBox3 from "&/images/example.jpg";
 import BentoBox4 from "&/images/example.jpg";
 import { LayoutGrid } from "../ui/layout-grid";
-import {useTranslations} from "next-intl";
+import { useTranslations } from "next-intl";
 
 export function LayoutGridDemo() {
     return (
@@ -16,51 +16,43 @@ export function LayoutGridDemo() {
 }
 
 const SkeletonOne = () => {
-    const t = useTranslations("Capabilities")
+    const t = useTranslations("Capabilities");
     return (
         <div>
             <p className="font-bold md:text-4xl text-xl text-white">{t("title")}</p>
             <p className="font-normal text-base text-white"></p>
-            <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-                {t("description")}
-            </p>
+            <p className="font-normal text-base my-4 max-w-lg text-neutral-200">{t("description")}</p>
         </div>
     );
 };
 
 const SkeletonTwo = () => {
-    const t = useTranslations("Capabilities")
+    const t = useTranslations("Capabilities");
     return (
         <div>
             <p className="font-bold md:text-4xl text-xl text-white">{t("title")}</p>
             <p className="font-normal text-base text-white"></p>
-            <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-                {t("description")}
-            </p>
+            <p className="font-normal text-base my-4 max-w-lg text-neutral-200">{t("description")}</p>
         </div>
     );
 };
 const SkeletonThree = () => {
-    const t = useTranslations("Capabilities")
+    const t = useTranslations("Capabilities");
     return (
         <div>
             <p className="font-bold md:text-4xl text-xl text-white">{t("title")}</p>
             <p className="font-normal text-base text-white"></p>
-            <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-                {t("description")}
-            </p>
+            <p className="font-normal text-base my-4 max-w-lg text-neutral-200">{t("description")}</p>
         </div>
     );
 };
 const SkeletonFour = () => {
-    const t = useTranslations("Capabilities")
+    const t = useTranslations("Capabilities");
     return (
         <div>
             <p className="font-bold md:text-4xl text-xl text-white">{t("title")}</p>
             <p className="font-normal text-base text-white"></p>
-            <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-                {t("description")}
-            </p>
+            <p className="font-normal text-base my-4 max-w-lg text-neutral-200">{t("description")}</p>
         </div>
     );
 };
