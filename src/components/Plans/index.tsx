@@ -1,10 +1,10 @@
 import SimplePricing from "@/components/mvpblocks/simple-pricing";
 
 const Plans = () => {
-    return(
+    return (
         <>
             <SimplePricing />
         </>
-    )
-}
+    );
+};
 export default Plans;
