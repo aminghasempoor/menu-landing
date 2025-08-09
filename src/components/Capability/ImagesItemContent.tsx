@@ -1,10 +1,11 @@
 "use client";
 import React from "react";
-import BentoBox1 from "&/images/bentobox-01.png";
-import BentoBox2 from "&/images/bentobox-02.png";
-import BentoBox3 from "&/images/bentobox-03.png";
-import BentoBox4 from "&/images/bentobox-04.png";
+import BentoBox1 from "&/images/example.jpg";
+import BentoBox2 from "&/images/example.jpg";
+import BentoBox3 from "&/images/example.jpg";
+import BentoBox4 from "&/images/example.jpg";
 import { LayoutGrid } from "../ui/layout-grid";
+import {useTranslations} from "next-intl";
 
 export function LayoutGridDemo() {
     return (
@@ -15,50 +16,50 @@ export function LayoutGridDemo() {
 }
 
 const SkeletonOne = () => {
+    const t = useTranslations("Capabilities")
     return (
         <div>
-            <p className="font-bold md:text-4xl text-xl text-white">House in the woods</p>
+            <p className="font-bold md:text-4xl text-xl text-white">{t("title")}</p>
             <p className="font-normal text-base text-white"></p>
             <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-                A serene and tranquil retreat, this house in the woods offers a peaceful escape from the hustle and
-                bustle of city life.
+                {t("description")}
             </p>
         </div>
     );
 };
 
 const SkeletonTwo = () => {
+    const t = useTranslations("Capabilities")
     return (
         <div>
-            <p className="font-bold md:text-4xl text-xl text-white">House above the clouds</p>
+            <p className="font-bold md:text-4xl text-xl text-white">{t("title")}</p>
             <p className="font-normal text-base text-white"></p>
             <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-                Perched high above the world, this house offers breathtaking views and a unique living experience.
-                It&apos;s a place where the sky meets home, and tranquility is a way of life.
+                {t("description")}
             </p>
         </div>
     );
 };
 const SkeletonThree = () => {
+    const t = useTranslations("Capabilities")
     return (
         <div>
-            <p className="font-bold md:text-4xl text-xl text-white">Greens all over</p>
+            <p className="font-bold md:text-4xl text-xl text-white">{t("title")}</p>
             <p className="font-normal text-base text-white"></p>
             <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-                A house surrounded by greenery and nature&apos;s beauty. It&apos;s the perfect place to relax, unwind,
-                and enjoy life.
+                {t("description")}
             </p>
         </div>
     );
 };
 const SkeletonFour = () => {
+    const t = useTranslations("Capabilities")
     return (
         <div>
-            <p className="font-bold md:text-4xl text-xl text-white">Rivers are serene</p>
+            <p className="font-bold md:text-4xl text-xl text-white">{t("title")}</p>
             <p className="font-normal text-base text-white"></p>
             <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-                A house by the river is a place of peace and tranquility. It&apos;s the perfect place to relax, unwind,
-                and enjoy life.
+                {t("description")}
             </p>
         </div>
     );

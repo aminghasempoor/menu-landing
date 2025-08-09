@@ -1,4 +1,3 @@
-// TODO: update local storage config
 import { create } from "zustand";
 
 export type AppTheme = "light" | "dark";

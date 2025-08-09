@@ -1,9 +1,9 @@
-import BentoBox1 from "&/images/bentobox-01.png";
-import BentoBox2 from "&/images/bentobox-02.png";
-import BentoBox3 from "&/images/bentobox-03.png";
-import BentoBox4 from "&/images/bentobox-04.png";
-import BentoBox5 from "&/images/bentobox-05.png";
-import BentoBox6 from "&/images/bentobox-06.png";
+import BentoBox1 from "&/images/bentobox-01.jpg";
+import BentoBox2 from "&/images/bentobox-02.jpg";
+import BentoBox3 from "&/images/bentobox-03.jpg";
+import BentoBox4 from "&/images/bentobox-04.jpg";
+import BentoBox5 from "&/images/bentobox-05.jpg";
+import BentoBox6 from "&/images/bentobox-06.jpg";
 
 export const bentoItems = [
     {

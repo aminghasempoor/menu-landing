@@ -8,7 +8,7 @@ type Card = {
     id: number;
     content: React.ReactNode | string;
     className: string;
-    thumbnail: string | StaticImageData; // ✅ تغییر این خط
+    thumbnail: string | StaticImageData;
 };
 
 export const LayoutGrid = ({ cards }: { cards: Card[] }) => {
@@ -62,7 +62,7 @@ export const LayoutGrid = ({ cards }: { cards: Card[] }) => {
 const ImageComponent = ({ card }: { card: Card }) => {
     return (
         <motion.div layoutId={`image-${card.id}-image`} className="absolute inset-0 h-full w-full">
-            <Image src={card.thumbnail} alt="thumbnail" className=" w-full  transition duration-200" />
+            <Image src={card.thumbnail} alt="thumbnail" className=" w-full transition duration-200" />
         </motion.div>
     );
 };
