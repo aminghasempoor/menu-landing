@@ -3,6 +3,7 @@ import Banner from "@/components/Banner";
 import Main from "@/components/Main";
 import CapabilitiesShowcase from "@/components/Capability";
 import Collaboration from "@/components/Collaboration";
+import Plans from "@/components/Plans";
 
 const Desktop = () => {
     return (
@@ -12,6 +13,7 @@ const Desktop = () => {
             <Main />
             <CapabilitiesShowcase />
             <Collaboration />
+            <Plans />
         </>
     );
 };
