@@ -5,37 +5,23 @@ export type Menu = {
 };
 export const menuItems: Menu[] = [
     { title: "صفحه خانه", href: "/" },
-    { title: "لیست تصاویر جاده‌ای", href: "/road-cameras" },
+    { title: "وبلاگ", href: "#" },
     {
-        title: "راه و ترافیک",
+        title: "راه ارتباطی",
         children: [
-            { title: "دوربین‌ها", href: "#" },
-            { title: "نقشه ترافیکی", href: "#" },
-            { title: "وضعیت جاده‌ها", href: "#" },
+            { title: "تلگرام", href: "#" },
+            { title: "لینکدین", href: "#" },
+            { title: "اینستا", href: "#" },
         ],
     },
-    { title: "کریدورهای اصلی" },
+    { title: "برنامه ها" },
     {
         title: "اخبار",
         children: [
-            { title: "داخلی", href: "#" },
-            { title: "حوادث", href: "#" },
+            { title: "اقتصادی", href: "#" },
+            { title: "ویژه", href: "#" },
             { title: "بین‌الملل", href: "#" },
         ],
     },
-    {
-        title: "وبلاگ",
-        children: [
-            {
-                title: "امین",
-                children: [
-                    { title: "مقالات", href: "#" },
-                    { title: "آموزش‌ها", href: "#" },
-                ],
-            },
-            { title: "آموزش‌ها", href: "#" },
-        ],
-    },
-    { title: "درباره ۱۴۱", href: "#" },
-    { title: "شکایات", href: "#" },
+    { title: "درباره ما", href: "#" },
 ];
