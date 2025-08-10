@@ -2,5 +2,74 @@
   "HomePage": {
     "title": "Hello world!",
     "about": "Go to the about page"
+  },
+  "NavBar": {
+    "title": "Menulita"
+  },
+  "Capabilities": {
+    "title": "Features and Capabilities",
+    "description": "A Seamless and Memorable Experience"
+  },
+  "Collaboration" : {
+    "title": "Menulita",
+    "description": "How Collaboration with",
+    "step1Title": "1. Submit Basic Info",
+    "step1Desc": "Fill out a simple form so we can understand your needs. The basics are the starting point",
+    "step2Title": "2. Menu Setup",
+    "step2Desc": "Our team will contact you to align the design and menu settings with your brand identity",
+    "step3Title": "3. Delivery & Easy Launch",
+    "step3Desc": "Your digital menu is ready to go, no technical skills required, instantly usable"
+  },
+  "SideBar": {
+    "title": "Menulita"
+  },
+  "Plans": {
+    "title": "Pricing Plans",
+    "yearly": "Yearly",
+    "monthly": "Monthly",
+    "off": "20% off",
+    "popular": "Popular",
+    "unit": "MT",
+    "description": "Pick the perfect plan for your needs",
+    "info": "Simple, transparent pricing that scales with your business. No\n            hidden fees, no surprises.",
+    "special": {
+      "name": "Special",
+      "description": "Exclusive for premium users",
+      "features": [
+        "Full dashboard access",
+        "Dedicated support",
+        "Advanced menu settings",
+        "Content archive",
+        "Custom brand fonts",
+        "Dual-time reporting"
+      ],
+      "cta": "Start Request"
+    },
+    "professional": {
+      "name": "Professional",
+      "description": "Professional plan",
+      "features": [
+        "Full dashboard access",
+        "Dedicated support",
+        "Advanced menu settings",
+        "Content archive",
+        "Custom brand fonts",
+        "Dual-time reporting"
+      ],
+      "cta": "Start Request"
+    },
+    "basic": {
+      "name": "Basic",
+      "description": "Most affordable",
+      "features": [
+        "Full dashboard access",
+        "Dedicated support",
+        "Advanced menu settings",
+        "Content archive",
+        "Custom brand fonts",
+        "Dual-time reporting"
+      ],
+      "cta": "Start Request"
+    }
   }
 }

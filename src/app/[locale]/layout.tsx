@@ -4,6 +4,7 @@ import { ThemeProvider } from "@/utils/theme-provider";
 import React from "react";
 import { NextIntlClientProvider } from "next-intl";
 import { notFound } from "next/navigation";
+import DeviceProvider from "@/providers/DeviceProvider";
 
 export const metadata: Metadata = {
     title: {
@@ -11,6 +12,7 @@ export const metadata: Metadata = {
         default: "منولیتا",
     },
 };
+
 interface LocaleLayoutProps {
     params: Promise<{
         locale: string;
@@ -31,18 +33,20 @@ export default async function RootLayout(props: LocaleLayoutProps) {
         <html lang={locale} dir={isRtl ? "rtl" : "ltr"} suppressHydrationWarning>
             <body>
                 <NextIntlClientProvider>
-                    <ThemeProvider
-                        attribute="class"
-                        defaultTheme="light"
-                        enableSystem
-                        disableTransitionOnChange
-                        value={{
-                            light: "light",
-                            dark: "dark",
-                        }}
-                    >
-                        {props.children}
-                    </ThemeProvider>
+                    <DeviceProvider>
+                        <ThemeProvider
+                            attribute="class"
+                            defaultTheme="light"
+                            enableSystem
+                            disableTransitionOnChange
+                            value={{
+                                light: "light",
+                                dark: "dark",
+                            }}
+                        >
+                            {props.children}
+                        </ThemeProvider>
+                    </DeviceProvider>
                 </NextIntlClientProvider>
             </body>
         </html>
