@@ -14,13 +14,7 @@ const SimplePicture = () => {
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.6 }}
             >
-                <Image
-                    src={BannerImage}
-                    alt="Banner Image"
-                    width={500}
-                    height={500}
-                    className="rounded-lg"
-                />
+                <Image src={BannerImage} alt="Banner Image" width={500} height={500} className="rounded-lg" />
             </motion.div>
 
             <motion.p

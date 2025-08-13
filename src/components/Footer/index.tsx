@@ -18,14 +18,7 @@ const Footer: React.FunctionComponent = () => {
                 transition={{ duration: 1.5 }}
                 className="absolute bottom-0 z-0 left-0"
             >
-                <Image
-                    src={backGround}
-                    alt="background"
-                    width={150}
-                    height={150}
-                    className="object-cover"
-                    priority
-                />
+                <Image src={backGround} alt="background" width={150} height={150} className="object-cover" priority />
             </motion.div>
 
             {/* لایه متن‌ها */}
@@ -37,15 +30,9 @@ const Footer: React.FunctionComponent = () => {
                         <small className="text-orange-200">.</small>
                     </h3>
                     <span className="flex items-center justify-evenly md:justify-start gap-x-6 w-full">
-                        <h3 className="scroll-m-20 capitalize text-lg tracking-tight lg:text-2xl">
-                            {t("price")}
-                        </h3>
-                        <h3 className="scroll-m-20 capitalize text-lg tracking-tight lg:text-2xl">
-                            {t("blog")}
-                        </h3>
-                        <h3 className="scroll-m-20 capitalize text-lg tracking-tight lg:text-2xl">
-                            {t("about_us")}
-                        </h3>
+                        <h3 className="scroll-m-20 capitalize text-lg tracking-tight lg:text-2xl">{t("price")}</h3>
+                        <h3 className="scroll-m-20 capitalize text-lg tracking-tight lg:text-2xl">{t("blog")}</h3>
+                        <h3 className="scroll-m-20 capitalize text-lg tracking-tight lg:text-2xl">{t("about_us")}</h3>
                     </span>
                 </div>
 

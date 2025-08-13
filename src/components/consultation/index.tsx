@@ -18,13 +18,7 @@ const Consultation = () => {
                     transition={{ duration: 1.5 }}
                     className="absolute inset-0"
                 >
-                    <Image
-                        className="object-cover rounded-xl"
-                        src={backGround}
-                        alt="background"
-                        fill
-                        priority
-                    />
+                    <Image className="object-cover rounded-xl" src={backGround} alt="background" fill priority />
                 </motion.div>
                 <motion.div
                     initial={{ opacity: 0 }}
@@ -42,16 +36,15 @@ const Consultation = () => {
                     >
                         <h2 className="text-5xl font-bold">{t("titleLine1")}</h2>
                         <h2 className="text-5xl font-bold">{t("titleLine2")}</h2>
-                        <p className="text-lg text-white/80">
-                            {t("subtitle")}
-                        </p>
+                        <p className="text-lg text-white/80">{t("subtitle")}</p>
                         <div className="grid grid-cols-2 gap-4 mt-6 text-sm justify-items-center">
-                            <span className="bg-white/10 w-[90%] px-5 py-2 rounded-full shadow-2xl">{t("support")}</span>
+                            <span className="bg-white/10 w-[90%] px-5 py-2 rounded-full shadow-2xl">
+                                {t("support")}
+                            </span>
                             <span className="bg-white/10 w-[90%] px-5 py-2 rounded-full">{t("customization")}</span>
                             <span className="bg-white/10 w-[90%] px-5 py-2 rounded-full">{t("noTech")}</span>
                             <span className="bg-white/10 w-[90%] px-5 py-2 rounded-full">{t("design")}</span>
                         </div>
-
                     </motion.div>
 
                     <motion.div

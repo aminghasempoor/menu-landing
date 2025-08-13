@@ -3,7 +3,6 @@ import React, { useState } from "react";
 import { motion } from "motion/react";
 import { cn } from "@/lib/utils";
 import Image, { StaticImageData } from "next/image";
-import BannerImage from "&/images/Video.png";
 
 type Card = {
     id: number;

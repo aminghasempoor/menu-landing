@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import useSidePanelStore from "@/stores/sidePanelStore";
 import { SideBarComponent } from "@/components/SideBarItems";
 import { menuItems } from "@/components/SideBarItems/SideBarContent";
-import {useTranslations} from "next-intl";
+import { useTranslations } from "next-intl";
 
 const SidePanel = () => {
     const t = useTranslations("SideBar");

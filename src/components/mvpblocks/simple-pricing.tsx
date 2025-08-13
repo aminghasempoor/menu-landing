@@ -27,7 +27,7 @@ export default function SimplePricing() {
             id: "professional",
             name: t("professional.name"),
             icon: Zap,
-            price: { monthly: 0.9, yearly:  11 },
+            price: { monthly: 0.9, yearly: 11 },
             description: t("professional.description"),
             features: t.raw("professional.features"),
             cta: t("professional.cta"),

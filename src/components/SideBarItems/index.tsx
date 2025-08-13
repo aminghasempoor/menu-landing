@@ -15,7 +15,6 @@ interface MenuRendererProps {
 }
 
 export function SideBarComponent({ items, level = 0 }: MenuRendererProps) {
-
     return (
         <div className="flex flex-col gap-1 mt-2 z-50">
             {items.map((item, index) => (

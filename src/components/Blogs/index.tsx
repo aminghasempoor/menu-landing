@@ -38,10 +38,7 @@ const Blogs = () => {
                     <div className="overflow-hidden" ref={emblaRef} dir={"rtl"}>
                         <div className="flex gap-4" dir={"rtl"}>
                             {blogs.map((blog, i) => (
-                                <div
-                                    key={i}
-                                    className="flex-[0_0_auto] w-[320px] h-[400px]"
-                                >
+                                <div key={i} className="flex-[0_0_auto] w-[320px] h-[400px]">
                                     <BlogCard image={blog.image} title={blog.title} />
                                 </div>
                             ))}
