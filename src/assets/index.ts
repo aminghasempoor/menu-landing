@@ -4,3 +4,7 @@ export { default as StarColor } from "&/icons/star-color.svg";
 export { default as Pencill } from "&/icons/pencill-icon.svg";
 export { default as Chat } from "&/icons/chat-icon.svg";
 export { default as Security } from "&/icons/security-icon.svg";
+export { default as Linkdin } from "&/icons/linkdin.svg";
+export { default as Instagram } from "&/icons/instagram.svg";
+export { default as Twiter } from "&/icons/twiter.svg";
+export { default as Telegram } from "&/icons/telegram.svg";

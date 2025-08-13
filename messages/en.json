@@ -6,6 +6,26 @@
   "NavBar": {
     "title": "Menulita"
   },
+  "Footer": {
+    "title": "Menulita",
+    "price": "Price",
+    "blog": "Blog",
+    "about_us": "About Us"
+  },
+  "Consultation": {
+    "title": "Simple.Unique.Professional",
+    "titleLine1": "Get Consultation",
+    "titleLine2": "and Purchase Subscription",
+    "subtitle": "Easily and in the shortest possible time...",
+    "support": "Professional Support",
+    "customization": "Full Customization",
+    "noTech": "No Technical Knowledge Required",
+    "design": "Unique and Attractive Design",
+    "name": "Full Name / Business Name",
+    "phone": "Phone Number",
+    "email": "Email",
+    "submit": "Start Request"
+  },
   "Capabilities": {
     "title": "Features and Capabilities",
     "description": "A Seamless and Memorable Experience"
@@ -22,6 +42,38 @@
   },
   "SideBar": {
     "title": "Menulita"
+  },
+  "FAQ": {
+    "title": "Menulita",
+    "text": "Find answers to common questions.",
+    "description": "Frequently Asked Questions",
+    "categories": {
+      "all": "All",
+      "general": "General",
+      "technical": "Technical",
+      "pricing": "Pricing",
+      "support": "Support"
+    },
+    "items": {
+      "1": {
+        "question": "What is MVPBlocks?",
+        "answer": "MVPBlocks is a collection of ready-to-use UI components built with Next.js and Tailwind CSS..."
+      },
+      "2": {
+        "question": "Is MVPBlocks free to use?",
+        "answer": "Yes, MVPBlocks is completely free and open-source..."
+      },
+      "3": {
+        "question": "Can i add my own Font and Color ?",
+        "answer": "Call us"
+      },
+      "4": {
+        "question": "How long it takes to prepare the Menu",
+        "answer": "Call us"
+      }
+    },
+    "contactText": "Can't find what you're looking for?",
+    "contactButton": "Contact Support"
   },
   "Plans": {
     "title": "Pricing Plans",

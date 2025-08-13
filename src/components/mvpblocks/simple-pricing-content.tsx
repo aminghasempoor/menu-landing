@@ -46,11 +46,11 @@ export default function SimplePricingContent({
             >
                 <Card
                     className={cn(
-                        "bg-secondary/20 relative h-full w-full text-left transition-all duration-300 hover:shadow-lg",
+                        "bg-primary-foreground/90 relative h-full w-full text-left transition-all duration-300 hover:shadow-lg",
                         plan.popular
                             ? "ring-primary/50 dark:shadow-primary/10 shadow-md ring-2"
                             : "hover:border-primary/30",
-                        plan.popular && "from-primary/[0.03] bg-gradient-to-b to-transparent"
+                        plan.popular && "from-card-foreground/[0.03] bg-gradient-to-b to-transparent"
                     )}
                 >
                     {plan.popular && (

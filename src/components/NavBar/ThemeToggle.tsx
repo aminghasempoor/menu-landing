@@ -1,13 +1,12 @@
-import { useThemeStore } from "@/stores/useThemeStore";
 import { AnimatePresence, motion } from "framer-motion";
 import { Moon, Sun } from "lucide-react";
+import { useTheme } from "next-themes";
 
 export default function ThemeToggle() {
-    const theme = useThemeStore((s) => s.theme);
-    const toggleTheme = useThemeStore((s) => s.toggleTheme);
+    const { setTheme, theme } = useTheme();
 
     function handleThemeToggle() {
-        toggleTheme();
+        setTheme(theme === "dark" ? "light" : "dark");
     }
 
     return (
@@ -21,9 +20,9 @@ export default function ThemeToggle() {
                     transition={{ duration: 0.5, ease: "easeInOut" }}
                 >
                     {theme === "dark" ? (
-                        <Moon className="md:size-4 lg:size-6 text-soft-white" />
+                        <Moon className="size-6 text-soft-white" />
                     ) : (
-                        <Sun className="md:size-4 lg:size-6 text-slate-card" />
+                        <Sun className="size-6 text-slate-card" />
                     )}
                 </motion.div>
             </button>
