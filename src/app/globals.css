@@ -7,6 +7,10 @@
     font-style: normal;
     font-display: swap;
 }
+.swiper-button-next,
+.swiper-button-prev {
+    display: none !important;
+}
 
 body {
     font-family: "Doran", sans-serif;
@@ -61,7 +65,7 @@ body {
 }
 
 .dark {
-    --background: oklch(0.2557 0.0071 48.4269);
+    --background: oklch(0.2389 0.005 48.6879);
     --foreground: oklch(0.9419 0.0145 64.3389);
     --card: oklch(0.2693 0.0084 43.1357);
     --card-foreground: oklch(0.9419 0.0145 64.3389);

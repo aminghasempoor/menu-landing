@@ -19,7 +19,7 @@ const NavBar = () => {
                 <div className={"flex items-center justify-center gap-x-4"}>
                     <ThemeToggle />
                     <button onClick={openPanel} className="text-foreground hover:text-foreground transition-colors">
-                        <MenuIcon className="w-6 h-6 text-foreground" />
+                        <MenuIcon className="w-4 h-4 text-foreground" />
                     </button>
                 </div>
             </nav>

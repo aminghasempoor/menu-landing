@@ -3,8 +3,10 @@ import { motion, AnimatePresence } from "framer-motion";
 import useSidePanelStore from "@/stores/sidePanelStore";
 import { SideBarComponent } from "@/components/SideBarItems";
 import { menuItems } from "@/components/SideBarItems/SideBarContent";
+import {useTranslations} from "next-intl";
 
 const SidePanel = () => {
+    const t = useTranslations("SideBar");
     const isOpen = useSidePanelStore((state) => state.isOpen);
     const closePanel = useSidePanelStore((state) => state.closePanel);
 
@@ -27,6 +29,10 @@ const SidePanel = () => {
                         exit={{ x: "100%" }}
                         transition={{ type: "tween", duration: 0.3 }}
                     >
+                        <h3 className="scroll-m-20 capitalize text-xl tracking-tight lg:text-2xl align-baseline pb-5">
+                            {t("title")}
+                            <small className={"text-orange-200"}>.</small>
+                        </h3>
                         <SideBarComponent items={menuItems} />
                     </motion.aside>
                 </>

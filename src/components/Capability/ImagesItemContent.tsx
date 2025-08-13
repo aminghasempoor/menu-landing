@@ -1,9 +1,9 @@
 "use client";
 import React from "react";
-import BentoBox1 from "&/images/example.jpg";
-import BentoBox2 from "&/images/example.jpg";
-import BentoBox3 from "&/images/example.jpg";
-import BentoBox4 from "&/images/example.jpg";
+import BentoBox1 from "&/images/consultant.jpg";
+import BentoBox2 from "&/images/bentobox-04.jpg";
+import BentoBox3 from "&/images/bentobox-01.jpg";
+import BentoBox4 from "&/images/bentobox-03.jpg";
 import { LayoutGrid } from "../ui/layout-grid";
 import { useTranslations } from "next-intl";
 

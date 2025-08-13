@@ -55,7 +55,7 @@ const Collaboration = () => {
 
     return (
         <motion.section
-            className="py-10 bg-gray-50"
+            className="py-10 bg-text-storm-dark"
             variants={sectionVariants}
             initial="hidden"
             whileInView="visible"
