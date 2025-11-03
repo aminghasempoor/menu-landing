@@ -34,9 +34,9 @@ const Consultation = () => {
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ delay: 0.5, duration: 0.6 }}
                     >
-                        <h2 className="text-5xl font-bold">{t("titleLine1")}</h2>
-                        <h2 className="text-5xl font-bold">{t("titleLine2")}</h2>
-                        <p className="text-lg text-white/80">{t("subtitle")}</p>
+                        <h2 className="text-xl md:text-5xl font-bold">{t("titleLine1")}</h2>
+                        <h2 className="text-xl md:text-5xl font-bold">{t("titleLine2")}</h2>
+                        <p className="md:text-lg text-white/80">{t("subtitle")}</p>
                         <div className="grid grid-cols-2 gap-4 mt-6 text-sm justify-items-center">
                             <span className="bg-white/10 w-[90%] px-5 py-2 rounded-full shadow-2xl">
                                 {t("support")}

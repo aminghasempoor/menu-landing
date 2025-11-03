@@ -21,7 +21,7 @@ export default function Faq2() {
     return (
         <section className="bg-background pb-16">
             <div className="container mx-auto max-w-6xl px-4 md:px-6">
-                <div className="mb-12 flex flex-col items-center">
+                <div className="mb-12 flex flex-col items-center text-center">
                     <Badge
                         variant="outline"
                         className="border-primary mb-4 px-3 py-4 text-2xl font-medium tracking-wider uppercase"
