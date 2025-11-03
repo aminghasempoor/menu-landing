@@ -1,35 +1,39 @@
 "use client";
-
 import React from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import BlogCard1 from "&/images/blogCover.jpg";
 import BlogCard2 from "&/images/blogCover2.jpg";
 import BlogCard3 from "&/images/blogCover3.jpg";
 import BlogCard from "./BlogCard";
+import {useTranslations} from "next-intl";
 
-const blogs = [
-    { image: BlogCard1, title: "چطور یک کافه‌ی کوچک محبوب آخر هفته‌ها شویم؟" },
-    { image: BlogCard2, title: "ترندهای طراحی داخلی کافه‌ها در سال ۱۴۰۴" },
-    { image: BlogCard3, title: "قیمت‌گذاری هوشمند در منو: منجر به سودآوری بیشتر" },
-];
 
 const Blogs = () => {
+    const t = useTranslations("Blogs")
     const [emblaRef] = useEmblaCarousel({
         loop: false,
         align: "end",
         direction: "rtl",
     });
 
+    const blogs = [
+        { image: BlogCard1, title: t("title1") },
+        { image: BlogCard2, title: t("title2") },
+        { image: BlogCard3, title: t("title3") },
+    ];
     return (
         <div className="pt-8 mt-16 px-4 md:px-8 rounded-xl">
             <div className="flex flex-col md:flex-row items-center md:items-start justify-center gap-8">
                 {/* ستون متن */}
                 <div className="flex flex-col items-center md:items-end md:w-1/3">
                     <h2 className="text-lg lg:text-2xl font-bold text-foreground leading-relaxed mb-6 text-center md:text-right">
-                        در بلاگ <span className="text-primary">منولیتا</span> بخوانید...
+                        {t.rich("sectionTitle", {
+                            highlight: (chunks) => <span className="text-primary">{chunks}</span>,
+                        })}
                     </h2>
+
                     <button className="flex w-fit items-center gap-2 px-3 py-2 border border-foreground rounded-lg text-sm hover:bg-muted transition">
-                        ← مشاهده همه مقالات
+                        {t("buttonText")}
                     </button>
                 </div>
 

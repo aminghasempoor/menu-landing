@@ -47,7 +47,7 @@ const FeatureBlock = ({ index, title, description, image }: FeatureBlockProps) =
             variants={containerVariants}
         >
             <motion.div className="flex-1 text-center lg:text-right" variants={textVariants}>
-                <h3 className="text-xl font-bold text-storm-dark">{title}</h3>
+                <h3 className="text-xl font-bold text-storm-dark text-start">{title}</h3>
                 <p className="mt-2 text-muted-foreground text-justify leading-relaxed text-sm sm:text-base">
                     {description}
                 </p>

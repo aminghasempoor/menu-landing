@@ -12,6 +12,28 @@
     "blog": "Blog",
     "about_us": "About Us"
   },
+  "Banner" : {
+    "digital_menu" : "Digital Menu",
+    "menulita" : "Menulita",
+    "simple" : "Simple, Unique, Professional...",
+    "customer" : "Beautiful for customer, Simple for management",
+    "consultant" : "Request for free consultation ←"
+  },
+  "Main": {
+    "title1": "A digital menu, hassle-free",
+    "description1": "Menulita is a modern digital menu for cafés and restaurants, designed with top quality for an engaging experience that’s always at your fingertips.",
+    "title2": "Fully customizable, easily managed",
+    "description2": "You’re in full control! Fonts, colors, and messages can be adjusted with just a few clicks. Start designing effortlessly today.",
+    "title3": "An experience that lasts",
+    "description3": "Your menu reflects your brand. With Menulita, offer a unique experience to your customers and boost your sales."
+  },
+  "Blogs": {
+    "title1": "How to Make a Small Café a Weekend Favorite",
+    "title2": "Café Interior Design Trends in 2025",
+    "title3": "Smart Menu Pricing: The Key to Higher Profitability",
+    "sectionTitle": "Read on the <highlight>Menulita</highlight> Blog...",
+    "buttonText": "← View all articles"
+  },
   "Consultation": {
     "title": "Simple.Unique.Professional",
     "titleLine1": "Get Consultation",
@@ -45,8 +67,8 @@
   },
   "FAQ": {
     "title": "Menulita",
-    "text": "Find answers to common questions.",
     "description": "Frequently Asked Questions",
+    "text": "Browse through the most common questions.",
     "categories": {
       "all": "All",
       "general": "General",
@@ -56,24 +78,29 @@
     },
     "items": {
       "1": {
-        "question": "What is MVPBlocks?",
-        "answer": "MVPBlocks is a collection of ready-to-use UI components built with Next.js and Tailwind CSS..."
+        "question": "What exactly is Menulita?",
+        "answer": "A digital menu designed to make your workflow simple and seamless."
       },
       "2": {
-        "question": "Is MVPBlocks free to use?",
-        "answer": "Yes, MVPBlocks is completely free and open-source..."
+        "question": "Do I need any technical knowledge to use Menulita?",
+        "answer": "Not at all!"
       },
       "3": {
-        "question": "Can i add my own Font and Color ?",
-        "answer": "Call us"
+        "question": "Can I use my own custom fonts and colors?",
+        "answer": "Please contact support for customization options."
       },
       "4": {
-        "question": "How long it takes to prepare the Menu",
-        "answer": "Call us"
+        "question": "How long does it take to set up the menu after purchase?",
+        "answer": "Please contact support for setup details."
       }
     },
-    "contactText": "Can't find what you're looking for?",
+    "contactText": "Didn’t find the answer you were looking for?",
     "contactButton": "Contact Support"
+  },
+  "BlogPage" : {
+    "Banner" : {
+      "title" : "Read on Menulita Blog ..."
+    }
   },
   "Plans": {
     "title": "Pricing Plans",
