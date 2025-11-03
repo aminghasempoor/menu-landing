@@ -1,10 +1,10 @@
 import Banner from "../Banner";
 
 const BlogMobile = () => {
-    return(
+    return (
         <>
             <Banner />
         </>
-    )
-}
-export default BlogMobile
+    );
+};
+export default BlogMobile;

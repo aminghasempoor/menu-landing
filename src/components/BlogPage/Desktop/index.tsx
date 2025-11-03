@@ -1,10 +1,10 @@
 import Banner from "../Banner";
 
 const BlogDesktop = () => {
-    return(
+    return (
         <>
             <Banner />
         </>
-    )
-}
-export default BlogDesktop
+    );
+};
+export default BlogDesktop;

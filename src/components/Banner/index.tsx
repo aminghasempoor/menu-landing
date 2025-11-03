@@ -5,10 +5,10 @@ import { motion } from "framer-motion";
 import { ChevronDown } from "lucide-react";
 import IphoneLight from "&/images/iPhone15.png";
 import IphoneDark from "&/images/iPhone15dark.png";
-import {useTranslations} from "next-intl";
+import { useTranslations } from "next-intl";
 
 const Banner = () => {
-    const t = useTranslations("Banner")
+    const t = useTranslations("Banner");
     return (
         <section className="relative w-full bg-background pt-20 pb-10 px-4 md:px-16 flex flex-col items-center overflow-hidden">
             <div className="flex flex-col-reverse md:flex-row-reverse items-center justify-between w-full max-w-6xl gap-10">

@@ -5,11 +5,10 @@ import BlogCard1 from "&/images/blogCover.jpg";
 import BlogCard2 from "&/images/blogCover2.jpg";
 import BlogCard3 from "&/images/blogCover3.jpg";
 import BlogCard from "./BlogCard";
-import {useTranslations} from "next-intl";
-
+import { useTranslations } from "next-intl";
 
 const Blogs = () => {
-    const t = useTranslations("Blogs")
+    const t = useTranslations("Blogs");
     const [emblaRef] = useEmblaCarousel({
         loop: false,
         align: "end",

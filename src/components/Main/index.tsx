@@ -1,11 +1,11 @@
 import FeatureBlock from "@/components/Main/FeatureBlock";
-import {useTranslations} from "next-intl";
+import { useTranslations } from "next-intl";
 import FeatureOne from "&/images/descriptionImg.png";
 import FeatureTwo from "&/images/descriptionImg1.png";
 import FeatureThree from "&/images/descriptionImg 2.png";
 
 const Main = () => {
-    const t = useTranslations("Main")
+    const t = useTranslations("Main");
 
     const features = [
         {
